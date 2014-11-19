@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2B4D121A1D2D7000E4FE01 /* VoteScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */; };
+		0A2B4D141A1D2D9600E4FE01 /* VoteCandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */; };
+		0A2B4D161A1D340900E4FE01 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D151A1D340800E4FE01 /* Bolts.framework */; };
+		0A2B4D181A1D341300E4FE01 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D171A1D341300E4FE01 /* Parse.framework */; };
+		0A2B4D1A1A1D353100E4FE01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D191A1D353100E4FE01 /* SystemConfiguration.framework */; };
+		0A2B4D1C1A1D354200E4FE01 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D1B1A1D354200E4FE01 /* StoreKit.framework */; };
+		0A2B4D1E1A1D354C00E4FE01 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D1D1A1D354C00E4FE01 /* Security.framework */; };
+		0A2B4D201A1D355B00E4FE01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D1F1A1D355B00E4FE01 /* QuartzCore.framework */; };
+		0A2B4D221A1D356700E4FE01 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D211A1D356700E4FE01 /* MobileCoreServices.framework */; };
+		0A2B4D241A1D357400E4FE01 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D231A1D357400E4FE01 /* libz.dylib */; };
+		0A2B4D261A1D358400E4FE01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D251A1D358400E4FE01 /* CoreLocation.framework */; };
+		0A2B4D281A1D359200E4FE01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D271A1D359200E4FE01 /* CoreGraphics.framework */; };
+		0A2B4D2A1A1D35A100E4FE01 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D291A1D35A100E4FE01 /* CFNetwork.framework */; };
+		0A2B4D2C1A1D35AD00E4FE01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D2B1A1D35AD00E4FE01 /* AudioToolbox.framework */; };
 		1FBC827E1A1C2096001B2C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */; };
 		1FBC82801A1C2096001B2C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC827F1A1C2096001B2C46 /* ViewController.swift */; };
 		1FBC82831A1C2096001B2C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC82811A1C2096001B2C46 /* Main.storyboard */; };
@@ -36,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteScoreViewController.swift; sourceTree = "<group>"; };
+		0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCandidateViewController.swift; sourceTree = "<group>"; };
+		0A2B4D151A1D340800E4FE01 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		0A2B4D171A1D341300E4FE01 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		0A2B4D191A1D353100E4FE01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A2B4D1B1A1D354200E4FE01 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0A2B4D1D1A1D354C00E4FE01 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A2B4D1F1A1D355B00E4FE01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A2B4D211A1D356700E4FE01 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0A2B4D231A1D357400E4FE01 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0A2B4D251A1D358400E4FE01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0A2B4D271A1D359200E4FE01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A2B4D291A1D35A100E4FE01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A2B4D2B1A1D35AD00E4FE01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1FBC82781A1C2096001B2C46 /* Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC827C1A1C2096001B2C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2B4D2C1A1D35AD00E4FE01 /* AudioToolbox.framework in Frameworks */,
+				0A2B4D2A1A1D35A100E4FE01 /* CFNetwork.framework in Frameworks */,
+				0A2B4D281A1D359200E4FE01 /* CoreGraphics.framework in Frameworks */,
+				0A2B4D261A1D358400E4FE01 /* CoreLocation.framework in Frameworks */,
+				0A2B4D241A1D357400E4FE01 /* libz.dylib in Frameworks */,
+				0A2B4D221A1D356700E4FE01 /* MobileCoreServices.framework in Frameworks */,
+				0A2B4D201A1D355B00E4FE01 /* QuartzCore.framework in Frameworks */,
+				0A2B4D1E1A1D354C00E4FE01 /* Security.framework in Frameworks */,
+				0A2B4D1C1A1D354200E4FE01 /* StoreKit.framework in Frameworks */,
+				0A2B4D1A1A1D353100E4FE01 /* SystemConfiguration.framework in Frameworks */,
+				0A2B4D181A1D341300E4FE01 /* Parse.framework in Frameworks */,
+				0A2B4D161A1D340900E4FE01 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +116,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2B4D2D1A1D35D200E4FE01 /* ParseFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B4D2B1A1D35AD00E4FE01 /* AudioToolbox.framework */,
+				0A2B4D291A1D35A100E4FE01 /* CFNetwork.framework */,
+				0A2B4D271A1D359200E4FE01 /* CoreGraphics.framework */,
+				0A2B4D251A1D358400E4FE01 /* CoreLocation.framework */,
+				0A2B4D231A1D357400E4FE01 /* libz.dylib */,
+				0A2B4D211A1D356700E4FE01 /* MobileCoreServices.framework */,
+				0A2B4D1F1A1D355B00E4FE01 /* QuartzCore.framework */,
+				0A2B4D1D1A1D354C00E4FE01 /* Security.framework */,
+				0A2B4D1B1A1D354200E4FE01 /* StoreKit.framework */,
+				0A2B4D191A1D353100E4FE01 /* SystemConfiguration.framework */,
+				0A2B4D171A1D341300E4FE01 /* Parse.framework */,
+				0A2B4D151A1D340800E4FE01 /* Bolts.framework */,
+			);
+			name = ParseFrameworks;
+			sourceTree = "<group>";
+		};
 		1FBC826F1A1C2096001B2C46 = {
 			isa = PBXGroup;
 			children = (
+				0A2B4D2D1A1D35D200E4FE01 /* ParseFrameworks */,
 				1FBC827A1A1C2096001B2C46 /* Voting */,
 				1FBC82901A1C2096001B2C46 /* VotingTests */,
 				1FBC82791A1C2096001B2C46 /* Products */,
@@ -99,6 +159,8 @@
 			children = (
 				1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */,
 				1FBC827F1A1C2096001B2C46 /* ViewController.swift */,
+				0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */,
+				0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */,
 				1FBC82811A1C2096001B2C46 /* Main.storyboard */,
 				1FBC82841A1C2096001B2C46 /* Images.xcassets */,
 				1FBC82861A1C2096001B2C46 /* LaunchScreen.xib */,
@@ -252,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2B4D121A1D2D7000E4FE01 /* VoteScoreViewController.swift in Sources */,
 				1FBC82801A1C2096001B2C46 /* ViewController.swift in Sources */,
+				0A2B4D141A1D2D9600E4FE01 /* VoteCandidateViewController.swift in Sources */,
 				1FBC827E1A1C2096001B2C46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kosta/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = Voting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kosta/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = Voting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +519,7 @@
 				1FBC82991A1C2097001B2C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FBC829A1A1C2097001B2C46 /* Build configuration list for PBXNativeTarget "VotingTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +528,7 @@
 				1FBC829C1A1C2097001B2C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

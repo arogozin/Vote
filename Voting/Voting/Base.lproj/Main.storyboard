@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -270,7 +270,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ayi-EN-gAk" kind="show" id="tkV-Bg-Udf"/>
+                                    <segue destination="Ayi-EN-gAk" kind="show" identifier="toVoteScoreSegue" id="tkV-Bg-Udf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -299,10 +299,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Vote Score View Controller-->
         <scene sceneID="ifd-Yh-at7">
             <objects>
-                <viewController id="Ayi-EN-gAk" sceneMemberID="viewController">
+                <viewController id="Ayi-EN-gAk" customClass="VoteScoreViewController" customModule="Voting" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="np9-l4-4PT"/>
                         <viewControllerLayoutGuide type="bottom" id="aET-xG-YyP"/>
@@ -421,7 +421,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="D7t-TX-ihU" kind="show" id="mNY-mq-OLn"/>
+                                                    <segue destination="D7t-TX-ihU" kind="show" identifier="toVoteCandidate1Segue" id="mNY-mq-OLn"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80k-LU-B6b">
@@ -468,7 +468,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="D7t-TX-ihU" kind="show" id="Wdf-cR-hoB"/>
+                                                    <segue destination="D7t-TX-ihU" kind="show" identifier="toVoteCandidate2Segue" id="Wdf-cR-hoB"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYS-pM-jV1">
@@ -529,12 +529,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNb-Ea-0q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1285" y="478"/>
+            <point key="canvasLocation" x="854" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Vote Candidate View Controller-->
         <scene sceneID="hpV-zZ-d3G">
             <objects>
-                <viewController id="D7t-TX-ihU" sceneMemberID="viewController">
+                <viewController id="D7t-TX-ihU" customClass="VoteCandidateViewController" customModule="Voting" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BBP-eY-zip"/>
                         <viewControllerLayoutGuide type="bottom" id="BfT-vo-fvF"/>
@@ -603,7 +603,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIA-Zr-9Ap">
-                                <rect key="frame" x="16" y="540" width="32.5" height="40"/>
+                                <rect key="frame" x="16" y="540" width="33" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="32.5" id="4xc-fF-WwW"/>
                                     <constraint firstAttribute="height" constant="40" id="El1-Jf-Reh"/>
@@ -612,7 +612,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ayi-EN-gAk" kind="show" id="kcP-x9-jdw"/>
+                                    <segue destination="Ayi-EN-gAk" kind="show" identifier="backToVoteScoreSegue" id="kcP-x9-jdw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpc-qA-JP0">
@@ -660,7 +660,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QDN-wl-zkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1283" y="1230"/>
+            <point key="canvasLocation" x="140" y="997"/>
         </scene>
     </scenes>
     <resources>
@@ -676,7 +676,7 @@
         <image name="sharebtn.png" width="140" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kcP-x9-jdw"/>
         <segue reference="mNY-mq-OLn"/>
+        <segue reference="kcP-x9-jdw"/>
     </inferredMetricsTieBreakers>
 </document>
