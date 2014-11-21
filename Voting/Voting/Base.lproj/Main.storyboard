@@ -222,6 +222,19 @@
                                     <constraint firstAttribute="height" constant="45" id="w1e-JO-R0E"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw1-zz-M9S">
+                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="LJo-4N-GPt"/>
+                                    <constraint firstAttribute="height" constant="70" id="Ln3-Wj-59z"/>
+                                </constraints>
+                                <state key="normal" title="Proceed to Vote" backgroundImage="GoVoteButtonBackground.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ayi-EN-gAk" kind="show" identifier="toVoteScoreSegue" id="tkV-Bg-Udf"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHO-G1-Ab8">
                                 <rect key="frame" x="155" y="364" width="290" height="70"/>
                                 <subviews>
@@ -260,19 +273,6 @@
                                     <constraint firstAttribute="width" constant="290" id="ZrJ-id-O6p"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw1-zz-M9S">
-                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="600" id="LJo-4N-GPt"/>
-                                    <constraint firstAttribute="height" constant="70" id="Ln3-Wj-59z"/>
-                                </constraints>
-                                <state key="normal" title="Proceed to Vote" backgroundImage="GoVoteButtonBackground.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ayi-EN-gAk" kind="show" identifier="toVoteScoreSegue" id="tkV-Bg-Udf"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -295,6 +295,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Yw1-zz-M9S" secondAttribute="bottom" id="nen-6L-CP1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageUISwitch" destination="YHQ-yY-dd0" id="bjD-SN-Caw"/>
+                        <outlet property="firstNameUITextField" destination="pM9-Ba-IsU" id="vwt-iN-TxZ"/>
+                        <outlet property="lastNameUITextField" destination="HM5-2b-iqi" id="AwL-p3-OtR"/>
+                        <outlet property="proceedToVoteUIButton" destination="Yw1-zz-M9S" id="yvD-tp-Pgk"/>
+                        <outlet property="ssnUITextField" destination="krh-zC-VhL" id="G0t-83-uXe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,31 +384,9 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKL-e0-ffg">
-                                        <rect key="frame" x="240" y="147" width="120" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="Dix-DN-MkD"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="FDz-Tj-x5B"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="YPb-0Y-jto"/>
-                                            <constraint firstAttribute="height" constant="21" id="abY-ZQ-zEr"/>
-                                        </constraints>
-                                        <attributedString key="attributedText">
-                                            <fragment content="#president2014">
-                                                <attributes>
-                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KUo-hP-bgA">
                                         <rect key="frame" x="8" y="176" width="165" height="300"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-1u-tvF">
-                                                <rect key="frame" x="12" y="24" width="140" height="140"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9m-0I-XBR">
                                                 <rect key="frame" x="25" y="172" width="114" height="21"/>
                                                 <attributedString key="attributedText">
@@ -437,6 +422,9 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-1u-tvF">
+                                                <rect key="frame" x="12" y="24" width="140" height="140"/>
+                                            </imageView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KUo-hP-bgA" secondAttribute="height" multiplier="11:20" id="m0l-DT-KRU"/>
@@ -449,19 +437,6 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="BLA-SR-og8">
                                                 <rect key="frame" x="12" y="24" width="140" height="140"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4h-Wg-4Rw">
-                                                <rect key="frame" x="25" y="172" width="114" height="21"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="George Bush">
-                                                        <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlE-mP-C19">
                                                 <rect key="frame" x="45" y="206" width="75" height="25"/>
                                                 <state key="normal" backgroundImage="profileButton.png">
@@ -484,12 +459,44 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4h-Wg-4Rw">
+                                                <rect key="frame" x="25" y="172" width="114" height="21"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="George Bush">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="165" id="2al-yn-9EO"/>
                                             <constraint firstAttribute="width" secondItem="4X3-M7-HoD" secondAttribute="height" multiplier="11:20" id="ort-X6-c94"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKL-e0-ffg">
+                                        <rect key="frame" x="240" y="147" width="120" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="Dix-DN-MkD"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="FDz-Tj-x5B"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="YPb-0Y-jto"/>
+                                            <constraint firstAttribute="height" constant="21" id="abY-ZQ-zEr"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="#president2014">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -526,6 +533,19 @@
                             <constraint firstItem="so6-gn-lq0" firstAttribute="leading" secondItem="1X4-iZ-pz5" secondAttribute="leading" id="z8U-0n-1NE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstCandidateNameUILabel" destination="S9m-0I-XBR" id="mDu-Dh-qFa"/>
+                        <outlet property="firstCandidateProfileUIButton" destination="TVc-vy-GZj" id="5Do-1A-CI0"/>
+                        <outlet property="firstCandidateScoreUILabel" destination="80k-LU-B6b" id="23f-dE-AKc"/>
+                        <outlet property="firstCandidateUIImageView" destination="VxJ-1u-tvF" id="1IV-G4-38E"/>
+                        <outlet property="hashUILabel" destination="yKL-e0-ffg" id="2uk-Lp-okC"/>
+                        <outlet property="secondCandidateNameUILabel" destination="N4h-Wg-4Rw" id="DKn-Xt-Nl1"/>
+                        <outlet property="secondCandidateProfileUIButton" destination="LlE-mP-C19" id="mHc-z4-ojW"/>
+                        <outlet property="secondCandidateScoreUILabel" destination="RYS-pM-jV1" id="zGd-qa-0kn"/>
+                        <outlet property="secondCandidateUIImageView" destination="BLA-SR-og8" id="Asj-H6-VcJ"/>
+                        <outlet property="titleUILable" destination="8U6-tK-l60" id="Wza-OS-A1C"/>
+                        <outlet property="yearUILabel" destination="OmT-Jh-PYE" id="RhN-Bc-yT9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNb-Ea-0q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -657,6 +677,15 @@
                             <constraint firstItem="LNK-yn-LR5" firstAttribute="top" secondItem="VbH-4b-HRW" secondAttribute="bottom" constant="22" id="yWb-1g-tDK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backToResultsUIButton" destination="aIA-Zr-9Ap" id="8of-J9-erj"/>
+                        <outlet property="candidateFBShareUIButton" destination="U8J-pb-hRw" id="YMf-GT-Rgr"/>
+                        <outlet property="candidateLocationUILabel" destination="lWb-Wx-XM8" id="xjW-f6-y9J"/>
+                        <outlet property="candidateNameUILabel" destination="EPB-ru-KOg" id="vcH-Sp-mCL"/>
+                        <outlet property="candidateSideUILabel" destination="Qym-Mz-rUP" id="HT1-8l-DcH"/>
+                        <outlet property="candidateUIImageView" destination="JWG-4E-w9L" id="dEf-Fk-fuh"/>
+                        <outlet property="candidateVoteUIButton" destination="Vpc-qA-JP0" id="B7Y-Gi-pYq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QDN-wl-zkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

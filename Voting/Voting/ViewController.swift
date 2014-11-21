@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var firstNameUITextField: UITextField!
+    @IBOutlet var lastNameUITextField: UITextField!
+    @IBOutlet var ssnUITextField: UITextField!
+    @IBOutlet var ageUISwitch: UISwitch!
+    @IBOutlet var proceedToVoteUIButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
