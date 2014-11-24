@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A2B4D121A1D2D7000E4FE01 /* VoteScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */; };
-		0A2B4D141A1D2D9600E4FE01 /* VoteCandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */; };
+		0A2B4D141A1D2D9600E4FE01 /* VoteCandidate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4D131A1D2D9600E4FE01 /* VoteCandidate1ViewController.swift */; };
 		0A2B4D161A1D340900E4FE01 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D151A1D340800E4FE01 /* Bolts.framework */; };
 		0A2B4D181A1D341300E4FE01 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D171A1D341300E4FE01 /* Parse.framework */; };
 		0A2B4D1A1A1D353100E4FE01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D191A1D353100E4FE01 /* SystemConfiguration.framework */; };
@@ -21,6 +21,7 @@
 		0A2B4D281A1D359200E4FE01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D271A1D359200E4FE01 /* CoreGraphics.framework */; };
 		0A2B4D2A1A1D35A100E4FE01 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D291A1D35A100E4FE01 /* CFNetwork.framework */; };
 		0A2B4D2C1A1D35AD00E4FE01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2B4D2B1A1D35AD00E4FE01 /* AudioToolbox.framework */; };
+		0AF4CE3D1A228E4200128D78 /* VoteCandidate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CE3C1A228E4200128D78 /* VoteCandidate2ViewController.swift */; };
 		1FBC827E1A1C2096001B2C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */; };
 		1FBC82801A1C2096001B2C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC827F1A1C2096001B2C46 /* ViewController.swift */; };
 		1FBC82831A1C2096001B2C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC82811A1C2096001B2C46 /* Main.storyboard */; };
@@ -51,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteScoreViewController.swift; sourceTree = "<group>"; };
-		0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCandidateViewController.swift; sourceTree = "<group>"; };
+		0A2B4D131A1D2D9600E4FE01 /* VoteCandidate1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCandidate1ViewController.swift; sourceTree = "<group>"; };
 		0A2B4D151A1D340800E4FE01 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
 		0A2B4D171A1D341300E4FE01 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
 		0A2B4D191A1D353100E4FE01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -65,6 +66,7 @@
 		0A2B4D291A1D35A100E4FE01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0A2B4D2B1A1D35AD00E4FE01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0AD8BBB31A1E7AAF009BC356 /* Voting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voting-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AF4CE3C1A228E4200128D78 /* VoteCandidate2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCandidate2ViewController.swift; sourceTree = "<group>"; };
 		1FBC82781A1C2096001B2C46 /* Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC827C1A1C2096001B2C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,7 +163,8 @@
 				1FBC827D1A1C2096001B2C46 /* AppDelegate.swift */,
 				1FBC827F1A1C2096001B2C46 /* ViewController.swift */,
 				0A2B4D111A1D2D7000E4FE01 /* VoteScoreViewController.swift */,
-				0A2B4D131A1D2D9600E4FE01 /* VoteCandidateViewController.swift */,
+				0A2B4D131A1D2D9600E4FE01 /* VoteCandidate1ViewController.swift */,
+				0AF4CE3C1A228E4200128D78 /* VoteCandidate2ViewController.swift */,
 				1FBC82811A1C2096001B2C46 /* Main.storyboard */,
 				1FBC82841A1C2096001B2C46 /* Images.xcassets */,
 				1FBC82861A1C2096001B2C46 /* LaunchScreen.xib */,
@@ -318,7 +321,8 @@
 			files = (
 				0A2B4D121A1D2D7000E4FE01 /* VoteScoreViewController.swift in Sources */,
 				1FBC82801A1C2096001B2C46 /* ViewController.swift in Sources */,
-				0A2B4D141A1D2D9600E4FE01 /* VoteCandidateViewController.swift in Sources */,
+				0A2B4D141A1D2D9600E4FE01 /* VoteCandidate1ViewController.swift in Sources */,
+				0AF4CE3D1A228E4200128D78 /* VoteCandidate2ViewController.swift in Sources */,
 				1FBC827E1A1C2096001B2C46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
