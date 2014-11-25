@@ -681,7 +681,6 @@
         <!--Vote Candidate1 View Controller-->
         <scene sceneID="hpV-zZ-d3G">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QDN-wl-zkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="D7t-TX-ihU" customClass="VoteCandidate1ViewController" customModule="Voting" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BBP-eY-zip"/>
@@ -799,6 +798,7 @@
                         <outlet property="candidateVoteUIButton" destination="Vpc-qA-JP0" id="B7Y-Gi-pYq"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QDN-wl-zkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-863" y="605"/>
         </scene>
@@ -815,6 +815,6 @@
         <image name="sharebtn.png" width="140" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PmA-jT-BJc"/>
+        <segue reference="oJc-3z-c2g"/>
     </inferredMetricsTieBreakers>
 </document>

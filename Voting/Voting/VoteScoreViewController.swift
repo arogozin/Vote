@@ -121,7 +121,7 @@ class VoteScoreViewController: UIViewController {
                 var currentVotes = test["votes"] as Int
                 
                 test.save()
-                self.firstCandidateScoreUILabel.text! = "\(currentVotes)"
+                self.secondCandidateScoreUILabel.text! = "\(currentVotes)"
                 
             } else {
                 NSLog("%@", error)
